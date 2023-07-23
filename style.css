@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 550;
+  }
+  body{
+    /* padding: 50px 100px; */
+    /* background-image: url(bci3.jpg); */
+    background:white;
+    width: 100%;
+    height: 100vh;
+    font-family: "poppins",sans-serif;
+    
+  }
+  h1{
+    text-align: center;
+    color:rgb(4, 2, 2);
+    font-size: 38px;
+    /* background-color: #1d4d63; */
+    /* background: rgb(143, 213, 136); */
+    padding: 10px 10px;
+    margin-left: 295px;
+    margin-right: 285px;
+    font-weight: bolder;
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #dadada;
+      /* background:url(Temperature.webp) no-repeat;S */
+      border: 2px solid #000000;
+      padding: 10px 10px;
+      margin-left: 295px;
+      margin-right: 285px;
+      margin-bottom: 40px;
+
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+      margin-top: 0.2rem;
+      font-size: 20px;
+    }
+    .form-group label{
+      font-size: 22px;
+      color: #010f19;
+    }
+    .form-group input{
+        background: #fff;
+    }
+    .form-group input:hover{
+      background: #d9e7e1;
+    }
+    
+    input[type="number"] {
+        margin-left: 10px;
+      width: 85%;
+      /* padding: 0.4rem; */
+        padding: 10px;
+      border-radius: 0.25rem;
+      border: 2px solid #635d5d;
+    }
+    #unit{
+      font-weight: 400;
+      padding: 10px 2px;
+      width: 80px;
+    }
+    #unit option{
+        color: #1d4d63;
+    }
+    #button{
+      background:rgb(255, 255, 255);
+      /* color:#f2f2f2; */
+      padding: 10px 15px ;
+      border-radius: 25px;
+      font-size: 25px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      border: none;
+    }
+    #button:hover{
+      background-color: #211e21;
+      color: #e8e9ea;
+      /* border: aliceblue; */
+      border-radius: 25px;
+      font-size: 25px;
+      transition: .2s ease;
+      cursor: pointer;
+    }
+    @media (max-width:725px) {
+      #button{
+        font-size:12px
+      }
+      input[type="number"] {
+        width: 100px;
+      }
+      .form-group label{
+        font-size: 16px;
+      }
+      h1{
+        font-size: small;
+      }
+      /* .container{
+        width: 100%;
+        height: 70%;
+      } */
+    }
